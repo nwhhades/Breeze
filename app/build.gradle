@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.whiner.breeze'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.whiner.breeze"
+        minSdk 19
+        targetSdk 29
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    signingConfigs {
+        naizhe {
+            storeFile file('./naizhe.jks')
+            storePassword 'nlj123456'
+            keyAlias 'key'
+            keyPassword 'nlj1025'
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable = true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            debuggable = true
+            minifyEnabled true
+            signingConfig signingConfigs.naizhe
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+}
+
+dependencies {
+
+    implementation project(path: ':devkit')
+
+}
