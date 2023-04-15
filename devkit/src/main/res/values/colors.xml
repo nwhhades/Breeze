@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF808080</color>
+    <color name="deep_gray">#FF434343</color>
+    <color name="light_gray">#FFCDCDCD</color>
+
+    <color name="tr">#00000000</color>
+    <color name="tr_black_10">#1A000000</color>
+    <color name="tr_black_20">#33000000</color>
+    <color name="tr_black_30">#4D000000</color>
+    <color name="tr_black_40">#66000000</color>
+    <color name="tr_black_50">#80000000</color>
+    <color name="tr_black_60">#99000000</color>
+    <color name="tr_black_70">#B3000000</color>
+    <color name="tr_black_80">#CC000000</color>
+    <color name="tr_black_90">#E6000000</color>
+    <color name="tr_white_10">#1AFFFFFF</color>
+    <color name="tr_white_20">#33FFFFFF</color>
+    <color name="tr_white_30">#4DFFFFFF</color>
+    <color name="tr_white_40">#66FFFFFF</color>
+    <color name="tr_white_50">#80FFFFFF</color>
+    <color name="tr_white_60">#99FFFFFF</color>
+    <color name="tr_white_70">#B3FFFFFF</color>
+    <color name="tr_white_80">#CCFFFFFF</color>
+    <color name="tr_white_90">#E6FFFFFF</color>
+
+    <color name="window_bg">#4B4B4B</color>
+    <color name="text_color">#E1E1E1</color>
+    <color name="focus_normal">#CCCCCC</color>
+    <color name="focus_focused">#00BFA5</color>
+    <color name="focus_pressed">#FFD600</color>
+    <color name="focus_selected">#2962FF</color>
+    <color name="focus_selected_focused">#2187e9</color>
+    <color name="focus_checked">#DD2C00</color>
+    <color name="focus_checked_focused">#bd745e</color>
+
+</resources>

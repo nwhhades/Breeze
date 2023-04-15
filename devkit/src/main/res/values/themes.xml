@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="RoundedImageView" parent="android:Widget">
+        <item name="strokeColor">@color/material_on_surface_stroke</item>
+        <item name="shapeAppearance">@style/RoundedStyleShapeAppearance</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="RoundedStyleShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/rounded_radius</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="indicatorColor">@color/focus_focused</item>
+        <item name="trackColor">@color/tr_black_40</item>
+        <item name="trackCornerRadius">@dimen/rounded_radius</item>
+        <item name="trackThickness">100pt</item>
+    </style>
+
+    <style name="CircularProgressBar" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/focus_focused</item>
+        <item name="trackColor">@color/tr_black_40</item>
+        <item name="indicatorSize">200pt</item>
+        <item name="trackThickness">20pt</item>
+    </style>
+
+    <style name="TvButton" parent="Widget.Material3.CheckedTextView">
+        <item name="android:background">@drawable/btn_bg_card1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
